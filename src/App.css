@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+.board {
+  display: flex;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.war-ground {
+  margin: 100px auto;
+  border: 1px solid lightblue;
+  width: 800px;
+  aspect-ratio: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.icon {
+  background-color: lightgrey;
+  border: 2px solid lightgray;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.actions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.winner {
+  border: none !important;
+  box-shadow: 0 0 10px 2px black;
+}
+
+button {
+  cursor: pointer;
+}
+
+.grass {
+  border-color: mediumseagreen;
+}
+
+.poison {
+  border-color: mediumpurple;
+}
+
+.fire {
+  border-color: goldenrod;
+}
+
+.flying {
+  border-color: steelblue;
+}
+
+.water {
+  border-color: dodgerblue;
+}
+
+.bug {
+  border-color: brown;
+}
+
+.normal {
+  border-color: gray;
+}
+
+.ground {
+  border-color: peru;
+}
+
+.fairy {
+  border-color: hotpink;
+}
+
+.fighting {
+  border-color: crimson;
+}
+
+.electric {
+  border-color: hsl(51deg 73% 50%);
+}
+
+.psychic {
+  border-color: orange;
+}
+
+.rock {
+  border-color: dimgray;
+}
+
+.ice {
+  border-color: darkcyan;
+}
+
+.dragon {
+  border-color: mediumaquamarine;
+}
+
+.ghost {
+  border-color: black;
+}
+
+.dark {
+  border-color: slategray;
+}
+
+.steel {
+  border-color: steelblue;
 }
